@@ -3,12 +3,13 @@
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .row {
   clear: both;
+  margin-bottom: 2%;
 }
 .row:after {
   content: ".";
@@ -17,12 +18,12 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
-  margin-bottom: 2%;
 }
 
 [class*="col-"] {
   float: left;
   margin-left: 2%;
+  background: blue;
 }
 [class*="col-"]:first-child {
   margin-left: 0;
